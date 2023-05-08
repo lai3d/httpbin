@@ -326,7 +326,7 @@ def view_uuid():
         description: A UUID4.
     """
 
-    return jsonify(uuid=str(uuid.uuid4()))
+    return jsonify(uuidCanary=str(uuid.uuid4()))
 
 
 @app.route("/headers")
