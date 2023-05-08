@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 LABEL name="httpbin"
 LABEL version="1.0.0-canary"
 LABEL description="A simple HTTP service."
-LABEL org.kennethreitz.vendor="Kenneth Reitz"
+LABEL org.kennethreitz.vendor="Kenneth Reitz, Larry Lai"
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
